@@ -14,7 +14,16 @@ The images are stored in the "data" folder.
 
 `cnn_model.py`: A module used to define the costumed Convolutional Neural Network archirtecture and class.<br>
 
-`train.py`: A module used to automate the traing process and the hyper-parameter tuning.<br>
-note: The `train_save_best_model()` function is wrapping the training, hyper-parameter tuning and saving the best model as a `.pt` file.
+`train.py`: A module used to automate the training process and the hyper-parameter tuning.<br>
+<b>note:</b> The `train_save_best_model()` function is wrapping the training, hyper-parameter tuning and saving the best model as a `.pt` file.
 
-`utils.py`: A module with helper functions for loading the data and preparing it for training.<br>
+## api and web applicaion
+
+`web_app.py`: Create a web application based in REST api.
+
+`app.py`: Create a REST api without the web stuff.
+
+`commons.py`: A module with helper functions for loading the pre-trained model and <br>preparing raw image bytes to an inferable tensor for our model to predict on.
+
+`app.py`: Create a REST api without the web stuff.<br>
+
