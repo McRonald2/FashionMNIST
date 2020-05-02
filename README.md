@@ -19,7 +19,7 @@ The images are stored in the "data" folder.
 
 ## api and web applicaion
 
-`web_app.py`: Create a web application based in REST api.
+`web_app.py`: Create a web application based on REST api.
 
 `app.py`: Create a REST api without the web stuff.
 
