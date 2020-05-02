@@ -17,7 +17,7 @@ The images are stored in the "data" folder.
 `train.py`: A module used to automate the training process and the hyper-parameter tuning.<br>
 <b>note:</b> The `train_save_best_model()` function is wrapping the training, hyper-parameter tuning and saving the best model as a `.pt` file.
 
-## api and web applicaion
+## REST api and web applicaion
 
 `web_app.py`: Create a web application based on REST api.
 
