@@ -11,6 +11,7 @@ The images are stored in the "data" folder.
 ## Overview
 
 `utils.py`: A module with helper functions for loading the data and preparing it for training.<br>
-`cnn_model.py`: A module used to define the cutumed Convolutional Neural Network archirtecture.<br>
+`cnn_model.py`: A module used to define the costumed Convolutional Neural Network archirtecture and class.<br>
 `train.py`: A module used to automate the traing process and the hyper-parameter tuning.<br>
+note: The `train_save_best_model()` function is wrapping the training, hyper-parameter tuning and saving the best model as a `.pt` file.
 `utils.py`: A module with helper functions for loading the data and preparing it for training.<br>
